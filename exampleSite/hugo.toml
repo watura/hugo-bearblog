@@ -3,12 +3,17 @@
 baseURL = "https://example.com"
 
 # The name of this wonderful theme ;-).
-theme = 'hugo-bearblog'
+# theme = 'hugo-bearblog'
+
+# Hugo Module configuration
+[module]
+  [[module.imports]]
+    path = "github.com/watura/hugo-bearblog"
 
 # Basic metadata configuration for your blog.
 title = "Hugo ʕ•ᴥ•ʔ Bear Blog"
 author = "Jane Doe"
-copyright = "Copyright © 2020, Jane Doe."
+copyright = "Copyright 2020, Jane Doe."
 languageCode = "en-US"
 
 # Generate a nice robots.txt for SEO
